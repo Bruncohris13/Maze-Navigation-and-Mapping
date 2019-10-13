@@ -25,7 +25,7 @@
   
 ## What the Robot does:
 
-The Robot can travel through the Maze, mapping each cell it traverses through. When it reaches a green tile or there is no unexplored tiles next to it, it successfully traverses back through the maze, until it finds an unexplored neighboring tile to continue it's adventure. When the robot finally reaches the red tile, it first thinks if it knows the fastest path back. If it knows the fastest path back, it will calculate it using the A* Search Algorithm and start going back. If it does not know the fastest path back, it will explore the path of the Maze where the fastest path might be. Then go back to the red tile and then do the A* Search and traverse back to the home tile.
+The Robot can travel through the Maze, mapping each cell it traverses through. When it reaches a green tile or there is no unexplored tiles next to it, it successfully traverses back through the maze, until it finds an unexplored neighboring tile to continue it's adventure. When the robot finally reaches the red tile, it first thinks if it knows the fastest path back. If it knows the fastest path back, it will calculate it using the A* Search Algorithm and start going back. If it does not know the fastest path back, it will explore the path of the Maze where the fastest path might be. Then go back to the red tile and then do the A* Search and traverse back to the home tile. Finally, the robot does all of this while showing it on the LCD screen.
 
 ## Robot Setup:
 
